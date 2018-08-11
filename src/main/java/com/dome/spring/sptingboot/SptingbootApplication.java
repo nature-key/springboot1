@@ -21,7 +21,7 @@ public class SptingbootApplication {
 //		System.out.println(System.getProperty("file.encoding"));
 //		System.out.println(context.getBeansOfType(EncodingConvert.class));
 //		System.out.println(context.getBeansOfType(Runnable.class));
-		System.out.println(context.getBean(TomcatProperties.class));
+//		System.out.println(context.getBean(TomcatProperties.class));
 		context.close();
 	}
 }
